@@ -11,7 +11,7 @@ Este é um projeto voltado ao acesso a pessoas de baixa renda que nao tem condi�
 
 [ ] Etapa 4 - Desenvolvimento do front-end da aplicação utilizando vueJS ou ReactJS (Em definição).
 
-[ ] Etapa 5 - Integração do front end com a api desenvolvida em nodeJS.
+[ ] Etapa 5 - Integração do front-end com a api desenvolvida em nodeJS.
 
 ## Instalando
 
