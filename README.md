@@ -1,5 +1,4 @@
 # Partner angel (Anjo parceiro)
-============================
 ## Sobre
 Este é um projeto voltado ao acesso a pessoas de baixa renda que nao tem condições financeiras para comprar cursos pagos para aprendizados de todas as areas. O partner angel tem o intuito de unir um parceiro(anjo) com condiçoes e vontade de ajudar no desenvolvimento de pessoas de baixa renda, com pessoas que tenham vontade e apenas lhe faltam condiçoes e melhores oportunidades. 
 
