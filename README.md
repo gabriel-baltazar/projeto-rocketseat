@@ -26,6 +26,11 @@ Para instalá-lo em sua máquina faça os comandos a seguir:
   npm install
   npm run dev
 ```
+Para utilizar a persistencia de dados com mysql siga os passos a seguir:
+``` bash
+    Crie um banco de dados mysql com o nome 'mydb'
+    Altere o arquivo example.env que esta no caminho ./prisma/example.env para .env apenas e configure de acordo com seu mysql
+```
 
 #### Atenção
 Todos os teste da api foram realizados utilizando insomnia ambiente para importar no insomnia esta disponivel na pasta config/insomnia
