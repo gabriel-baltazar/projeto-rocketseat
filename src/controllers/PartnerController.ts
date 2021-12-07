@@ -1,13 +1,18 @@
 import CreatePartnerService from "../models/Partner";
 import { Request, Response } from "express";
+import { PrismaClient } from '@prisma/client';
 
-export function CreatePartner(resquest: Request, response: Response){
+const prisma = new PrismaClient();
 
-    CreatePartnerService.execute({
-        name: resquest.body.name,
-        city: resquest.body.city,
-        contribution: resquest.body.contribution,
+export async function CreatePartner(resquest: Request, response: Response){
+    const partner = await prisma.partner.create({
+        data:{
+            name: resquest.body.name,
+            city: resquest.body.city,
+            contribution: resquest.body.contribution,
+        }
     });
+    CreatePartnerService.execute(partner);
 
     return response.status(201).send();
 }

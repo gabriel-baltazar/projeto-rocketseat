@@ -1,6 +1,6 @@
 interface Student {
     name:string;
-    birthDate:number;
+    birthDate:string;
     income:number;
     city:string;
     genre:string;
