@@ -15,8 +15,9 @@ Este é um projeto voltado para pessoas de baixa renda que nao tem condições f
 
 ## Instalando
 
-Obs.: É necessário antes de instalar este projeto, ter instalado e rodando os bancos de dados: 
+Obs.: É necessário antes de instalar este projeto, ter instalado e rodando: 
 * NodeJS (NPM)
+* MySql
 
 Para instalá-lo em sua máquina faça os comandos a seguir:
 
